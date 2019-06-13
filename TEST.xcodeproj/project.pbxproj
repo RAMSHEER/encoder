@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F65A5B722AA822B0090CB39 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F65A5B622AA822B0090CB39 /* Result.swift */; };
 		4FB81D86229E8885008C1E75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB81D85229E8885008C1E75 /* AppDelegate.swift */; };
 		4FB81D88229E8885008C1E75 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB81D87229E8885008C1E75 /* ViewController.swift */; };
 		4FB81D8B229E8885008C1E75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FB81D89229E8885008C1E75 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4F65A5B622AA822B0090CB39 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 		4FB81D82229E8885008C1E75 /* TEST.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TEST.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FB81D85229E8885008C1E75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4FB81D87229E8885008C1E75 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 			children = (
 				4FB81D85229E8885008C1E75 /* AppDelegate.swift */,
 				4FB81D87229E8885008C1E75 /* ViewController.swift */,
+				4F65A5B622AA822B0090CB39 /* Result.swift */,
 				4FB81D89229E8885008C1E75 /* Main.storyboard */,
 				4FB81D8F229E8889008C1E75 /* Assets.xcassets */,
 				4FB81D91229E8889008C1E75 /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			files = (
 				4FB81D88229E8885008C1E75 /* ViewController.swift in Sources */,
 				4FB81D86229E8885008C1E75 /* AppDelegate.swift in Sources */,
+				4F65A5B722AA822B0090CB39 /* Result.swift in Sources */,
 				4FB81D8E229E8885008C1E75 /* TEST.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

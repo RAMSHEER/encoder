@@ -7,3 +7,12 @@
 //
 
 import Foundation
+struct ResultObject: Decodable {
+    
+    var IsSuccess: Bool?
+    var Message: Messageob?
+}
+struct Messageob: Decodable{
+    var ErrorCode: Int?
+    var Text: [String]?
+}
