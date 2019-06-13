@@ -24,17 +24,25 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="9xD-e2-g7D">
+                                <rect key="frame" x="169" y="315" width="37" height="37"/>
+                                <color key="backgroundColor" red="0.84801965950000002" green="0.69515508410000004" blue="0.69657337669999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="1" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" red="0.7887965441" green="0.31949204209999998" blue="0.3036485612" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="zRo-BV-EYF" secondAttribute="trailing" constant="8" id="F9C-SE-yPG"/>
+                            <constraint firstItem="9xD-e2-g7D" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="M2x-EC-vNd"/>
                             <constraint firstItem="zRo-BV-EYF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="R7b-vZ-1UE"/>
                             <constraint firstItem="zRo-BV-EYF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="kkZ-0G-QyH"/>
                             <constraint firstItem="zRo-BV-EYF" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="r1F-47-edT"/>
+                            <constraint firstItem="9xD-e2-g7D" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="v2M-MI-01N"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="activityIndctr" destination="9xD-e2-g7D" id="482-2J-fZC"/>
                         <outlet property="label" destination="zRo-BV-EYF" id="Ils-D3-jft"/>
                     </connections>
                 </viewController>
